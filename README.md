@@ -10,7 +10,7 @@ Before you begin, ensure you have the following installed on your system:
   - Download from [https://git-scm.com/](https://git-scm.com/)
   - Follow installation instructions for your OS
 
-- **PHP**: Version 7.3 or higher required
+- **PHP**: Version 8.0 or higher required
   - Check version with `php -v`
 
 - **Composer**: PHP dependency manager
@@ -18,8 +18,8 @@ Before you begin, ensure you have the following installed on your system:
   - Follow installation instructions for your OS
 
 - **Web Server**: 
+  - Use AWamp or Laragon for development
   - Use Apache or Nginx for production
-  - Laravel's built-in server for development
 
 - **Database**: 
   - MySQL, PostgreSQL, or SQLite
@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed on your system:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://gitlab.com/SoengSouy/admin-template-with-laravel-sample.git
+   git clone https://github.com/KAS-L1/HRMS_TEMPLATE.git
    cd admin-template-with-laravel-sample
    ```
 
