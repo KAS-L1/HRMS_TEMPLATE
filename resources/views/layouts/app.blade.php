@@ -6,21 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ config('app.name') }} Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="{{ URL::to('favicon.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.png') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ URL::to('assets/css/perfect-scrollbar.min.css') }}">
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ URL::to('assets/css/style.css') }}">
-    <link defer="" rel="stylesheet" type="text/css" media="screen" href="{{ URL::to('assets/css/animate.css') }}">
-    <script src="{{ URL::to('assets/js/perfect-scrollbar.min.js') }}"></script>
-    <script defer="" src="{{ URL::to('assets/js/popper.min.js') }}"></script>
-    <script defer="" src="{{ URL::to('assets/js/tippy-bundle.umd.min.js') }}"></script>
-    <script defer="" src="{{ URL::to('assets/js/sweetalert.min.js') }}"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('assets/css/perfect-scrollbar.min.css') }}">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('assets/css/style.css') }}">
+    <link defer="" rel="stylesheet" type="text/css" media="screen" href="{{ asset('assets/css/animate.css') }}">
+    <script src="{{ asset('assets/js/perfect-scrollbar.min.js') }}"></script>
+    <script defer="" src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script defer="" src="{{ asset('assets/js/tippy-bundle.umd.min.js') }}"></script>
+    <script defer="" src="{{ asset('assets/js/sweetalert.min.js') }}"></script>
     {{-- message toastr --}}
-    <link rel="stylesheet" href="{{ URL::to('assets/css/toastr.min.css') }}">
-    <script src="{{ URL::to('assets/js/toastr_jquery.min.js') }}"></script>
-    <script src="{{ URL::to('assets/js/toastr.min.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('assets/css/toastr.min.css') }}">
+    <script src="{{ asset('assets/js/toastr_jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/toastr.min.js') }}"></script>
 
 </head>
 
@@ -80,12 +80,12 @@
         <!-- end main content section -->
     </div>
 
-    <script src="{{ URL::to('assets/js/alpine-collaspe.min.js') }}"></script>
-    <script src="{{ URL::to('assets/js/alpine-persist.min.js') }}"></script>
-    <script defer="" src="{{ URL::to('assets/js/alpine-ui.min.js') }}"></script>
-    <script defer="" src="{{ URL::to('assets/js/alpine-focus.min.js') }}"></script>
-    <script defer="" src="{{ URL::to('assets/js/alpine.min.js') }}"></script>
-    <script src="{{ URL::to('assets/js/custom.js') }}"></script>
+    <script src="{{ asset('assets/js/alpine-collaspe.min.js') }}"></script>
+    <script src="{{ asset('assets/js/alpine-persist.min.js') }}"></script>
+    <script defer="" src="{{ asset('assets/js/alpine-ui.min.js') }}"></script>
+    <script defer="" src="{{ asset('assets/js/alpine-focus.min.js') }}"></script>
+    <script defer="" src="{{ asset('assets/js/alpine.min.js') }}"></script>
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
 
     <script>
         // main section
