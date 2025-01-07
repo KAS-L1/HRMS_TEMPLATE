@@ -56,7 +56,7 @@
                 <div class="card my-5">
                     <div class="card-body">
                         <a href="#">
-                            <h1 class="text-success">Logistics</h1>
+                            <h1 class="text-success">{{ config('app.name') }}</h1>
                         </a>
                         <div class="d-flex justify-content-between align-items-end mb-4">
                             <h3 class="mb-0"><b>Forgot Password</b></h3>

@@ -52,7 +52,7 @@
                 <div class="card my-5">
                     <div class="card-body">
                         <a href="#">
-                            <h1 class="text-success">Logistics</h1>
+                            <h1 class="text-success">{{ config('app.name') }}</h1>
                         </a>
                         <h3><b>Reset Password</b></h3>
                         @if (session('status'))

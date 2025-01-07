@@ -34,7 +34,7 @@
                     <div class="card-body">
                         <div class="text-center">
                             <a href="#">
-                                <h1 class="text-success">Logistics</h1>
+                                <h1 class="text-success">{{ config('app.name') }}</h1>
                             </a>
                             <h4 class="text-center f-w-500 mb-3">Register</h4>
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Dashboard Template</title>
+    <title>{{ config('app.name') }} Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1456,7 +1456,7 @@
 
             <!-- start footer section -->
             <div class="mt-auto p-6 pt-0 text-center dark:text-white-dark ltr:sm:text-left rtl:sm:text-right">
-                © <span id="footer-year"></span>. {{ auth()->user()->first_name }} Kh All rights reserved.
+                © <span id="footer-year"></span>. {{ config('app.name') }} All rights reserved.
             </div>
             <!-- end footer section -->
         </div>
